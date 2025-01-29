@@ -1,8 +1,8 @@
-body{
+body {
     background-color: #000;
 }
 
-.sidebar{
+.sidebar {
     position: fixed;
     top: 0;
     left: 0;
@@ -11,7 +11,7 @@ body{
     width: 300px;
 }
 
-.sidebar__navigation{
+.sidebar__navigation {
     background-color: #121212;
     border-radius: 8px;
     padding: 16px 0 0 16px;
@@ -24,20 +24,20 @@ body{
     padding: 16px 0 0 16px;
 }
 
-.sidebar__navigation .logo img{
+.sidebar__navigation .logo img {
     width: 80px;
 }
 
-.sidebar nav ul{
+.sidebar nav ul {
     margin-top: 20px;
     padding: 0 20px 10px 20px;
 }
 
-.sidebar ul li{
+.sidebar ul li {
     padding: 10px 0;
 }
 
-.sidebar nav ul li a{
+.sidebar nav ul li a {
     color: #b3b3b3;
     text-decoration: none;
     font-weight: 600;
@@ -45,7 +45,7 @@ body{
     font-family: "DM Sans", sans-serif;
 }
 
-.library{
+.library {
     background-color: #121212;
     border-radius: 8px;
     display: flex;
@@ -58,12 +58,12 @@ body{
     margin-top: 10px;
 }
 
-.library .library__content{
+.library .library__content {
     display: flex;
     justify-content: space-between;
 }
 
-.library .library__button{
+.library .library__button {
     display: flex;
     margin-right: 10px;
     color: #b3b3b3;
@@ -78,7 +78,7 @@ body{
     padding: 20px 5px
 }
 
-.library .library__button .fa{
+.library .library__button .fa {
     font-size: 20px;
     font-weight: 300;
     color: #b3b3b3;
@@ -90,6 +90,148 @@ body{
     margin-right: 4px;
 }
 
-.library .library__content .fa-plus{
+.library .library__content .fa-plus {
     margin: 24px 10px;
+}
+
+.section-playlist {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #242424;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0px;
+    padding: 16px 20px;
+    width: 249px;
+    position: relative;
+    left: -25px;
+    border-radius: 10px;
+}
+
+.section-playlist .section-playlist__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-playlist__content .text {
+    padding-bottom: 14px;
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+}
+
+.section-playlist__content .title {
+    font-weight: 700;
+
+}
+
+.section-playlist__content .subtitle {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.section-playlist__content .section-playlist__button {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    columns: #000;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px;
+    margin-top: 12px;
+    border: 0px;
+    width: 113px;
+}
+
+.sidebar .cookies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 20px;
+}
+
+.sidebar .cookies a {
+    color: #b3b3b3;
+    font-weight: 500;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.sidebar .cookies a:hover {
+    text-decoration: underline;
+}
+
+.languages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.languages .languages__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid #878787;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    width: 170px;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.languages  .languages__button .fa-globe {
+    margin-right: 4px;
+}
+
+.disclaimer-premium {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    padding: 10px 30px; 
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin: 12px 12px;
+}
+
+.disclaimer-premium .text {
+    flex-shrink: 0;
+    font-family: "DM Sans", sans-serif;
+}
+
+.disclaimer-premium .disclaimer-premium__title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.disclaimer-premium .disclaimer-premium__subtitle {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.disclaimer-premium button {
+    background-color: #fff;
+    color: #000;
+    font-size: 14px; 
+    font-weight: bold;
+    padding: 10px 25px; 
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    flex-shrink: 0;
 }
