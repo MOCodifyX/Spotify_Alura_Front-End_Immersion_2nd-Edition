@@ -51,7 +51,7 @@ body{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    padding: 4px 8px;
+    padding: 4px 30px;
     color: #b3b3b3;
     font-weight: 600;
     font-size: 14px;
@@ -75,7 +75,7 @@ body{
     text-align: center;
     text-decoration: none;
     text-transform: none;
-    padding: 20px 10px
+    padding: 20px 5px
 }
 
 .library .library__button .fa{
@@ -84,6 +84,10 @@ body{
     color: #b3b3b3;
     margin-right: 10px;
     padding-right: 8px;
+}
+
+.library .library__button .fa-book {
+    margin-right: 4px;
 }
 
 .library .library__content .fa-plus{
