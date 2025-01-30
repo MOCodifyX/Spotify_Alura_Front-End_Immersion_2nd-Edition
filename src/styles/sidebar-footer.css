@@ -7,12 +7,14 @@ body {
 }
 
 .sidebar {
+    width: 260px;
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
     padding: 12px;
     width: 300px;
+    z-index: 1001;
 }
 
 .sidebar__navigation {
