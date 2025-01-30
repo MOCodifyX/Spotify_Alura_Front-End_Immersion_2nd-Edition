@@ -1,7 +1,8 @@
 body {
+    font-family: var(--font-dm-sans);
     margin: 0;
     padding: 0;
-    background: url('assets/background/backgroundM6.png') no-repeat center center fixed;
+    background: url('../assets/background/backgroundM6.png') no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -45,7 +46,6 @@ body {
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
-    font-family: "DM Sans", sans-serif;
 }
 
 .library {
@@ -75,7 +75,6 @@ body {
     border: 0px;
     font-size: 14px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -124,7 +123,6 @@ body {
 .section-playlist__content .text {
     padding-bottom: 14px;
     color: #fff;
-    font-family: "DM Sans", sans-serif;
 }
 
 .section-playlist__content .title {
@@ -145,7 +143,6 @@ body {
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-decoration: none;
     text-transform: none;
     padding: 10px;
@@ -180,7 +177,6 @@ body {
 .section-podcast__content .text {
     padding-bottom: 14px;
     color: #fff;
-    font-family: "DM Sans", sans-serif;
 }
 
 .section-podcast__content .title {
@@ -201,7 +197,6 @@ body {
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-decoration: none;
     text-transform: none;
     padding: 10px;
@@ -259,7 +254,7 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    background: linear-gradient(to right, #ae2896, #509bf5);
+    background: linear-gradient(to right, #000000, #1c8903);
     padding: 10px 30px; 
     display: flex;
     justify-content: space-between;
@@ -270,7 +265,6 @@ body {
 
 .disclaimer-premium .text {
     flex-shrink: 0;
-    font-family: "DM Sans", sans-serif;
 }
 
 .disclaimer-premium .disclaimer-premium__title {
