@@ -19,7 +19,7 @@ body {
 
 .sidebar__navigation {
     background-color: #121212;
-    border-radius: 8px;
+    border-radius: 10px;
     padding: 16px 0 0 16px;
 }
 
@@ -27,20 +27,23 @@ body {
     background: #121212;
     display: flex;
     border-radius: 8px ;
-    padding: 16px 0 0 16px;
+    padding: 0px 0 0 7px;
 }
 
 .sidebar__navigation .logo img {
-    width: 80px;
+    width: 250px;
 }
 
 .sidebar nav ul {
-    margin-top: 20px;
-    padding: 0 20px 10px 20px;
+    margin-top: 10px;
+    padding: 0 41px 4px 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .sidebar ul li {
     padding: 10px 0;
+    display: inline-block;
 }
 
 .sidebar nav ul li a {
@@ -61,7 +64,7 @@ body {
     font-weight: 600;
     font-size: 14px;
     margin-top: 10px;
-    height: 67.5vh;
+    height: 72.5vh;
 }
 
 .library .library__content {

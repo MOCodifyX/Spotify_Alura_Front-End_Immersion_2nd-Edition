@@ -52,7 +52,7 @@
 .header__search {
     display: flex;
     align-items: center;
-    width: 364px;
+    width: 764px;
     height: 47px;
     margin-left: 8px;
     background-color: #242424;
@@ -63,7 +63,7 @@
 .header__search img { 
     width: 16px;
     height: 16px;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .header__search input {
@@ -95,10 +95,11 @@
 }
 
 .playlist-container {
-    height: 76.2vh;
-    width: 1395px;
+    position: fixed;
+    height: 78.4vh;
+    width: 1569px;
     padding-top: 16px;
-    margin: -773px 300px 0 323px;
+    margin: -855px 300px 0 323px;
     border-radius: 10px;
     background-color: #121212;
 }
@@ -119,4 +120,12 @@
     color: #fff;
     font-size: 24px;
     font-weight: 700;
+}
+
+.logo-mo img {
+    position: relative;
+    width: 90px; 
+    filter: invert(1);
+    top: -60px; 
+    right: -1430px; 
 }
