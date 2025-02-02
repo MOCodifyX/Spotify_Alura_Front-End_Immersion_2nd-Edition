@@ -1,5 +1,5 @@
 <div style="display: flex; align-items: center;">
-    <img src="https://github.com/user-attachments/assets/dc403a2e-eb7c-4525-b065-2a4ff4d29e90" alt="Logo Imersão Front-End" width="510">
+    <img src="https://github.com/user-attachments/assets/dc403a2e-eb7c-4525-b065-2a4ff4d29e90" alt="Logo Imersão Front-End" width="300">
     <img src="https://github.com/user-attachments/assets/eda80e59-cebc-444f-810c-101df4dea57a" alt="Banner Imersão Front-End" width="400">
 </div>
 
