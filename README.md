@@ -3,12 +3,32 @@
     <img src="https://github.com/user-attachments/assets/eda80e59-cebc-444f-810c-101df4dea57a" alt="Banner Imersão Front-End" width="400">
 </div>
 
-# Imersão Front-End 2ª Edição  
+# Idiomas disponíveis/Language available:
+
+## [**🌎Versão em Português** 🇧🇷](README-pt.md)
+## [**🌎English Version** 🇺🇸](README.md)
+
+# 🎵 Spotify Imersão Front-End 2ª Edição 🎵  ## <a id="portuguese"></a> Português
 **#Imersao-front-end-alura**
 
 ---
-# 🛠️ Tecnologias Utilizadas
+# 📌 Sobre o projeto
+Este é um projeto front-end responsivo simples que recria a página de pesquisa do Spotify. 
+Contém um recurso que permite pesquisar artistas usando uma barra de pesquisa.
 
+---
+# 🔍 Artistas disponíveis:
+
+- 🎸 Foo Fighters
+- 🕺 Michael Jackson
+- 🎤 Emicida
+- 🎶 Chitãozinho e Xororó
+- 🎧 Mc Coringa
+- 🎵 Arlindo Cruz
+- 🎼 Caetano Veloso
+
+---
+# 🛠️ Tecnologias Utilizadas
 
  - HTML
  - CSS
@@ -16,7 +36,6 @@
 
 ---
 # ⚙️ Como Executar o Projeto
-
 
 ## 1. Clone o repositório:
 
