@@ -46,7 +46,7 @@ git clone https://github.com/pplace11/Spotify-Imersao.git
 cd Spotify-Imersao
 ```
 
-## 3. Instale a extensão Live Server no Visual Studio Code:**
+## 3. Instale a extensão Live Server no Visual Studio Code:
 
 - *Abra o Visual Studio Code.*
 - *Vá até a aba de extensões (ícone de quadrado no lado esquerdo ou use o atalho Ctrl+Shift+X).*
