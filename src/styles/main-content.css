@@ -33,6 +33,7 @@
     border-radius: 50%; /* Torna o botão redondo */
     width: 50px; /* Largura do botão */
     height: 50px; /* Altura do botão */
+    margin-right: 0px;
     display: flex;
     align-items: center; /* Centraliza o ícone verticalmente */
     justify-content: center; /* Centraliza o ícone horizontalmente */
@@ -55,7 +56,7 @@
 }
 
 .header__navigation .navigation .arrow-left {
-    margin-right: 2.5rem;
+    margin-right: 1.5rem;
 }
 
 .arrow-left, .arrow-right {
@@ -263,11 +264,12 @@
   /* FIM COLOR CARDS */
 
 .offer__list-item img {
-    width: 275px;
-    height: 275px; /* Ajusta a imagem para quadrada */
+    width: 268px;
+    height: 268px; /* Ajusta a imagem para quadrada */
     object-fit: contain;
     border-radius: 8px; /* Borda para a imagem, se desejar */
     margin-top: 45px; /* Espaço entre o título e a imagem */
+    padding-left: 3.8px;
 }
 
   /* CARD ARTISTA */
