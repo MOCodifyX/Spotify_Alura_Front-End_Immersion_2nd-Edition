@@ -1,0 +1,390 @@
+/* HEADER */
+
+.main-container {
+    max-width: calc(100vw - 260px);
+    height: 100vh;
+    padding: 20px
+}
+
+.header__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 12px;
+    border-radius: 8px;
+    background-color: #121212;
+    position: fixed;
+    top: 0; 
+    left: 310px; 
+    right: 0; 
+    z-index: 1000;
+}
+
+.header__navigation .navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fav-btn {
+    background-color: #1DB954; /* Cor de fundo (vermelho claro) */
+    border: none; /* Sem borda */
+    border-radius: 50%; /* Torna o botão redondo */
+    width: 50px; /* Largura do botão */
+    height: 50px; /* Altura do botão */
+    margin-right: 0px;
+    display: flex;
+    align-items: center; /* Centraliza o ícone verticalmente */
+    justify-content: center; /* Centraliza o ícone horizontalmente */
+    cursor: pointer; /* Torna o cursor uma mãozinha */
+    transition: all 0.3s ease; /* Transição suave para os efeitos */
+}
+
+.fav-btn i {
+    color: white; /* Cor do ícone de coração */
+    font-size: 24px; /* Tamanho do ícone */
+}
+
+.fav-btn:hover {
+    background-color: #ff6b81; /* Cor ao passar o mouse */
+    transform: scale(1.1); /* Aumenta o botão um pouco */
+}
+
+.fav-btn:active {
+    transform: scale(0.95); /* Efeito ao pressionar o botão */
+}
+
+.header__navigation .navigation .arrow-left {
+    margin-right: 1.5rem;
+}
+
+.arrow-left, .arrow-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: var(--bg-icon);
+    background-color:var(--bg-arrow-color);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.header__login {
+    display: flex;
+    align-items: center;
+}
+
+.header__search {
+    display: flex;
+    align-items: center;
+    width: 764px;
+    height: 47px;
+    margin-left: 8px;
+    background-color: #242424;
+    border-radius: 500px;
+    border: 1px solid transparent;
+}
+
+.header__search img { 
+    width: 16px;
+    height: 16px;
+    margin-left: 20px;
+}
+
+.header__search input {
+    background: transparent;
+    border: none;
+    padding: 0px 100px 0px 12px;
+    color:  #fff;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    outline: none;
+}
+
+.header__login .subscribe {
+    color: #a7a7a7;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+    margin-right: 32px;
+}
+
+.header__login .login {
+    width: 100px;
+    height: 48px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 40px;
+}
+
+.playlist-container {
+    position: fixed;
+    height: 78.4vh;
+    width: 1569px;
+    padding-top: 16px;
+    margin: -855px 300px 0 323px;
+    border-radius: 10px;
+    background-color: #121212;
+}
+
+.playlist {
+    margin-top: 8px;
+    margin-left: 27px;
+}
+
+.playlist #greeting {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.playlist .session {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.logo-mo img {
+    position: relative;
+    width: 65px; 
+    filter: invert(1);
+    top: -60px; 
+    right: -1430px; 
+}
+
+.offer__scroll-container {
+    max-height: 64vh;
+    margin: -40px;
+    overflow-y: auto;
+    padding-right: 55px;
+    padding-left: 55px;
+}
+
+.offer__scroll-container::-webkit-scrollbar {
+    width: 1px;
+}
+
+.offer__scroll-container::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+  /* FIM SCROLL */
+
+.offer__list-item {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 16px;
+    gap: 16px;
+    margin-bottom: 16px;
+
+    /* CODIGO COM JS CALCULANDO OS CARDS POR COLUNA */
+    display: grid;
+    gap: 16px;
+    grid-gap: 32px;
+    margin: 0 auto;
+}
+
+.cards {
+    position: relative; 
+    width: 275px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    background-color: transparent;
+}
+
+.cards span {
+    padding: 8px 16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: inherit;
+    z-index: 1;
+    box-sizing: border-box;
+    border-radius: 8px;  /* Arredonda todas as bordas */
+}
+
+  /* COLOR CARDS */
+.card1 {
+    background-color: #18ac4c;
+}
+.card2 {
+    background-color: #159643;
+}
+.card3 {
+    background: #128139;
+}
+.card4 {
+    background: #0f6b30;
+}
+.card5 {
+    background: #0c5626;
+}
+.card6 {
+    background:#159643;
+}
+.card7 {
+    background: #128139;
+}
+.card8 {
+    background: #0f6b30;
+}
+.card9 {
+    background: #0c5626;
+}
+.card10 {
+    background: #09401c;
+}
+.card11 {
+    background: #128139;
+}
+.card12 {
+    background: #0f6b30;
+}
+.card13 {
+    background: #0c5626;
+}
+.card14 {
+    background: #09401c;
+}
+.card15 {
+    background: #062b13;
+}
+  /* FIM COLOR CARDS */
+
+.offer__list-item img {
+    width: 268px;
+    height: 268px; /* Ajusta a imagem para quadrada */
+    object-fit: contain;
+    border-radius: 8px; /* Borda para a imagem, se desejar */
+    margin-top: 45px; /* Espaço entre o título e a imagem */
+    padding-left: 3.8px;
+}
+
+  /* CARD ARTISTA */
+
+.artist {
+    --column-count: 5;
+    --grid-gap: 24px;
+    --min-container-width: 372px;
+}
+
+.hidden {
+    display: none;
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 24px;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    min-width: 767px;
+    max-width: 90%;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;  /* Isso centraliza a grade */
+}
+
+.artist-card {
+    background: #181818;
+    border-radius: 8px;
+    -ms-flex: 1;
+    flex: 1;
+    isolation: isolate;
+    padding: 16px;
+    position: relative;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.artist-card:hover {
+    background-color: #252525;
+}
+
+.card-img {
+    padding-bottom: 100%;
+    position: relative;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.artist-img {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    min-height: 62px;
+}
+
+.card-text a {
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.artist-name {
+    box-sizing: border-box;
+    margin-block: 0px;
+    font-size: 16px;
+    font-weight: 700;
+    padding-block-end: 8px;
+}
+
+.artist-categorie {
+    color: #6a6a6a;
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+
+.play {
+    position: relative;
+}
+
+.play .fa-play {
+    position: absolute;
+    right: 10px;
+    top: 120px;
+    padding: 18px;
+    background-color: #1db954;
+    border-radius: 100%;
+    font-size: 14px;
+    opacity: 0;
+    transition: all ease 0.4s;
+}
+
+.artist-card:hover .play .fa-play {
+    opacity: 1;
+    transform: translateY(-20px);
+}
+
+.play .fa-play:hover {
+    padding: 20px;
+    cursor: pointer;
+}
+
+#result-artist {
+    padding: 20px 40px;
+}
+  /* FIM CARD ARTISTA */
