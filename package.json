@@ -1,0 +1,17 @@
+{
+  "name": "spotify-alura-front-end-immersion-2nd-edition",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "serve -s build",  
+    "build": "npm run copy",
+    "copy": "cp -r src/* build/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "serve": "^13.0.0"
+  },
+  "homepage": "https://MOCodifyX.github.io/Spotify_Alura_Front-End_Immersion_2nd-Edition"
+}
+
