@@ -90,21 +90,13 @@ json-server --watch api-artists/artist.json --port 3000
 
 ---
 # Schedule
-
-> **First Lesson**  
-> Review: HTML, CSS, and JS in Practice
-
-> **Second Lesson**  
-> Advanced Styling and Positioning: Transforming Layouts
-
-> **Third Lesson**  
-> Flexbox Layout, Pseudo-classes, and Responsiveness in CSS
-
-> **Fourth Lesson**  
-> CSS Grid, Media Queries, and DOM Manipulation with JavaScript
-
-> **Fifth Lesson**  
-> Frameworks and Efficiency: Introduction to React and Angular
+| Lesson                   | Conteúdo |
+|-------------------------------------|----------|
+| **First Lesson**         | Review: HTML, CSS, and JS in Practice |
+| **Second Lesson**        |  Advanced Styling and Positioning: Transforming Layouts |
+| **Third Lesson**         | Flexbox Layout, Pseudo-classes, and Responsiveness in CSS |
+| **Fourth Lesson**        |  CSS Grid, Media Queries, and DOM Manipulation with JavaScript |
+| **Fifth Lesson**         | Frameworks and Efficiency: Introduction to React and Angular |
 
 ---
 # 📸 Preview [![See the application](https://img.shields.io/badge/-See%20the%20Application-%2300A3E0?style=for-the-badge&logo=spotify&logoColor=white)](https://mocodifyx.github.io/Spotify_Alura_Front-End_Immersion_2nd-Edition/)
